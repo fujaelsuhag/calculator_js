@@ -1,0 +1,55 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #00AAFF, #00FF6C);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 400px;
+    background-color: #fff;
+    margin: 50px auto 0;
+    color: #5f5959;
+    border: 5px solid cyan;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.container .screen{
+    width: 100%;
+    text-align: right;
+    outline: 0;
+    padding: 30px;
+    font-size: 25px;
+    color: black;
+    border: none;
+    background-color: #ff060a;
+    color: #fff;
+    font-weight: 700;
+}
+.container .screen .line{
+    border-bottom: 2px solid #fff;
+}
+.container .buttons{
+    padding: 20px;
+}
+.container .buttons table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: 700;
+}
+.container .buttons table tr td{
+    border: 5px solid #fff;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+}
+.container .buttons table tr td:hover{
+    background-color: #bababb;
+    cursor: pointer;
+}
